@@ -15,6 +15,7 @@
 
 - (void)createJob:(id)data forTask:(id)task;
 - (BOOL)jobExistsForTask:(id)task;
+- (NSUInteger)jobCountForTask:(id)task;
 - (void)incrementAttemptForJob:(NSNumber *)jid;
 - (void)removeJob:(NSNumber *)jid;
 - (void)removeAllJobs;
